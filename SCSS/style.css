@@ -206,12 +206,13 @@ video {
 
 .video-main {
   position: relative;
+  background-color: #052138;
 }
 
 #mainlogo {
   position: absolute;
   top: 20%;
-  left: 35%;
+  left: 30%;
   z-index: 2;
 }
 
