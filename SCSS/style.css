@@ -641,7 +641,7 @@ video {
 
 .projectImage4 {
   grid-area: projectImage4;
-  background-image: url("images/projectImage4.jpg");
+  background-image: url(/images/projectImage4.jpg);
   border-radius: 25px;
   min-height: 440px;
 }
