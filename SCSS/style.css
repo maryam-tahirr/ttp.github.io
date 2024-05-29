@@ -655,7 +655,7 @@ video {
 
 .projectImage6 {
   grid-area: projectImage6;
-  background-image: url("/images/projectImage6.jpg");
+  background-image: url("./images/projectImage6.jpg");
   border-radius: 25px;
   min-height: 250px;
 }
