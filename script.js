@@ -38,11 +38,11 @@ var previmage = document.getElementById('prev');
 const main = document.getElementById('slidermain');
 var place = document.querySelector('.sliderh1');
 let images = [
-"/images/uae.jpg",
-"/images/Qatar.jpg",
-"/images/uk.jpg",
-"/images/africanregions.jpg",
-"/images/oman.jpg",
+"./images/uae.jpg",
+"./images/Qatar.jpg",
+"./images/uk.jpg",
+"./images/africanregions.jpg",
+"./images/oman.jpg",
 "/images/kuwait.jpg",
 "/images/bahrain.jpg",
 "/images/pakistan.jpg",
