@@ -536,6 +536,7 @@ video{
     max-width: 120rem;
     margin: 3% auto;
     position: relative;
+    background-color: yellow;
 }
 
 .projectstitle {
@@ -584,7 +585,6 @@ video{
     display: grid;
     margin: 3%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: yellow;
     grid-template-rows: auto;
     grid-gap: 25px;
     grid-template-areas:
