@@ -584,6 +584,7 @@ video{
     display: grid;
     margin: 3%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px yellow solid;
     grid-template-rows: auto;
     grid-gap: 25px;
     grid-template-areas:
