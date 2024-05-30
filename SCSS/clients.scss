@@ -208,13 +208,14 @@ hr{
 .sliderh1 {
     color: white;
     position: absolute;
-    bottom: 30px;
+    bottom: 260px;
     font-size: 28px;
     text-shadow: 4px 0px 2px #000000;
 }
 
 .globe {
-    font-size: 5em;
+    font-size: 4em;
+    font-weight: 500;
     color: #fff;
     padding: 15px;
     text-shadow: 8px 0px 2px #000000;
@@ -285,34 +286,34 @@ button {
     }
 }
 
-/* For mobile devices */
-@media (min-width:200px) and (max-width: 480px) {
-    .sliderh1 {
-        font-size: 20px;
-        bottom: 15px;
-    }
+// /* For mobile devices */
+// @media (min-width:200px) and (max-width: 480px) {
+//     .sliderh1 {
+//         font-size: 20px;
+//         bottom: 15px;
+//     }
 
-    .globe {
-        font-size: 2em;
-        padding: 5px;
-    }
+//     .globe {
+//         font-size: 2em;
+//         padding: 5px;
+//     }
 
-    .buttonsslider {
-        right: 10px;
-    }
+//     .buttonsslider {
+//         right: 10px;
+//     }
 
-    button {
-        width: 6px;
-        height: 20px;
-        margin: 10px 0;
-        padding: 0 8px;
-    }
+//     button {
+//         width: 6px;
+//         height: 20px;
+//         margin: 10px 0;
+//         padding: 0 8px;
+//     }
 
-    #logo-slider-main {
-        left: 30%;
-        height: 25%;
-    }
-}
+//     #logo-slider-main {
+//         left: 30%;
+//         height: 25%;
+//     }
+// }
 
 // .blueOverlay {
 //     position: relative;
@@ -648,8 +649,31 @@ footer ul li a{
         margin: 10px;
     }
 }
+
+
+@media (max-width: 480px) {
+
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer h3:after {
+        width: 20%;
+    }
+
+    footer ul li a, footer p {
+        font-size: 13px;
+    }
+
+    .footericon1 p {
+        margin-right: 20px;
+    }
+
+}
+
 @media screen and (max-width: 390px) {
-        nav{
+    nav{
         display: none;
         width: 100%;
         height: 100%;
@@ -695,6 +719,7 @@ footer ul li a{
     .testimonial{
         margin: 10px;
     }
+
     
 }
 
@@ -753,25 +778,5 @@ footer ul li a{
 
     .footericon1 p {
         margin-right: 0;
-    }
-}
-
-@media (max-width: 480px) {
-
-
-    footer h3 {
-        font-size: 20px;
-    }
-
-    footer h3:after {
-        width: 20%;
-    }
-
-    footer ul li a, footer p {
-        font-size: 13px;
-    }
-
-    .footericon1 p {
-        margin-right: 20px;
     }
 }
