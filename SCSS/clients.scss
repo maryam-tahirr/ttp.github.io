@@ -255,79 +255,8 @@ button {
     height: 40%;
 }
 
-/* Media Queries for Responsiveness */
 
-/* For tablets */
-@media (max-width: 768px) {
-    .sliderh1 {
-        font-size: 24px;
-        bottom: 20px;
-    }
 
-    .globe {
-        font-size: 3em;
-        padding: 10px;
-    }
-
-    .buttonsslider {
-        right: 15px;
-    }
-
-    button {
-        width: 8px;
-        height: 25px;
-        margin: 15px 0;
-        padding: 0 10px;
-    }
-
-    #logo-slider-main {
-        left: 35%;
-        height: 30%;
-    }
-}
-
-// /* For mobile devices */
-// @media (min-width:200px) and (max-width: 480px) {
-//     .sliderh1 {
-//         font-size: 20px;
-//         bottom: 15px;
-//     }
-
-//     .globe {
-//         font-size: 2em;
-//         padding: 5px;
-//     }
-
-//     .buttonsslider {
-//         right: 10px;
-//     }
-
-//     button {
-//         width: 6px;
-//         height: 20px;
-//         margin: 10px 0;
-//         padding: 0 8px;
-//     }
-
-//     #logo-slider-main {
-//         left: 30%;
-//         height: 25%;
-//     }
-// }
-
-// .blueOverlay {
-//     position: relative;
-// }
-
-// .blueOverlay::after {
-//     content: '';
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     background-color: $overlay_color; /* Blue color with 50% opacity */
-// }
 
 
 /***********************  Clients**********************/
@@ -618,7 +547,13 @@ footer ul li a{
         margin-right: 10%;
     }
 }
+@media (max-width: 950px){
+    footer img{
+        display: none;
+    }
+    
 
+}
 @media screen and (max-width: 768px) {
     nav{
         display: none;
@@ -631,11 +566,9 @@ footer ul li a{
         padding-left: 20px;
         position:relative;
     }
-    .main-page h1{
-        font-size: 4em;
-    }
+    
     .main-page{
-        height: 900px;
+        height: 100vh;
         background-size: cover;
     }
     .container{
@@ -648,88 +581,35 @@ footer ul li a{
     .testimonial{
         margin: 10px;
     }
+    .sliderh1 {
+        font-size: 4vh;
+        bottom: 20px;
+    }
+
+    .globe {
+        font-size: 8vh;
+        padding: 10px;
+        text-shadow: 4px 0px 2px #000000;
+    }
+
+    .buttonsslider {
+        right: 15px;
+    }
+
+    button {
+        width: 8px;
+        height: 25px;
+        margin: 15px 0;
+        padding: 0 10px;
+    }
+
+
 }
 
 
-@media (max-width: 480px) {
 
 
-    footer h3 {
-        font-size: 20px;
-    }
 
-    footer h3:after {
-        width: 20%;
-    }
-
-    footer ul li a, footer p {
-        font-size: 13px;
-    }
-
-    .footericon1 p {
-        margin-right: 20px;
-    }
-
-}
-
-@media screen and (max-width: 390px) {
-    nav{
-        display: none;
-        width: 100%;
-        height: 100%;
-        background-color: $main_blue;
-        color: #fff;
-        padding-bottom: 20px;
-        padding-top:20px;
-        padding-left: 20px;
-        position:relative;
-    }
-    .main-page h1{
-        font-size: 1.5em;
-    }
-    .main-page{
-        height: 400px;
-        background-size: cover;
-    }
-    .logotop{
-        height: 80px;
-        width: 50px;
-        right: 5%;
-    }
-    .titles h1{
-        font-size: 1em;
-    }
-    .container{
-        margin: 0;
-        display: block;
-        margin-bottom: 0;
-    }
-    .rows{
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .rowodd{
-        margin: 0;
-        flex-direction: column;
-    }
-    .clientss{
-        margin: 0;
-    }
-    .testimonial{
-        margin: 10px;
-    }
-
-    
-}
-
-@media (max-width: 950px){
-    footer img{
-        display: none;
-    }
-    
-
-}
 
 @media (max-width: 1280px) and (min-width: 768px) {
     nav{
@@ -778,5 +658,98 @@ footer ul li a{
 
     .footericon1 p {
         margin-right: 0;
+    }
+}
+
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .sliderh1 {
+        font-size: 20px;
+        bottom: 15px;
+    }
+    .globe {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    .buttonsslider {
+        right: 10px;
+    }
+
+    button {
+        width: 6px;
+        height: 20px;
+        margin: 10px 0;
+        padding: 0 8px;
+    }
+
+}
+@media (max-width: 480px) {
+
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer h3:after {
+        width: 20%;
+    }
+
+    footer ul li a, footer p {
+        font-size: 13px;
+    }
+
+    .footericon1 p {
+        margin-right: 20px;
+    }
+
+}
+@media (max-width: 390px) {
+    nav{
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: $main_blue;
+        color: #fff;
+        padding-bottom: 20px;
+        padding-top:20px;
+        padding-left: 20px;
+        position:relative;
+    }
+    .main-page h1{
+        font-size: 1.5em;
+    }
+    
+    .main-page{
+        height: 100vh;
+        background-size: cover;
+        margin: 0;
+        margin-top:-5%;
+        padding: 0;
+    }
+
+    .titles h1{
+        font-size: 1em;
+    }
+    .container{
+        margin: 0;
+        display: block;
+        margin-bottom: 0;
+    }
+    .rows{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rowodd{
+        margin: 0;
+        flex-direction: column;
+    }
+    .clientss{
+        margin: 0;
+    }
+    .testimonial{
+        margin: 10px;
     }
 }
