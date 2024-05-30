@@ -42,11 +42,11 @@ let images = [
 "./images/Qatar.jpg",
 "./images/uk.jpg",
 "./images/africanregions.jpg",
-"./images/oman.jpg",
-"/images/kuwait.jpg",
-"/images/bahrain.jpg",
-"/images/pakistan.jpg",
-"/images/saudiarabia.jpg"
+"./images/Oman.jpg",
+"./images/kuwait.jpg",
+"./images/bahrain.jpg",
+"./images/pakistan.jpg",
+"./images/saudiarabia.jpg"
 ];
 let placesnames = [
     "United Arab Emirates",
