@@ -667,8 +667,11 @@ footer ul li a {
   .footericon1 p {
     margin-right: 20px;
   }
+  header {
+    padding-bottom: 150px;
+  }
   .submitform {
-    top: 390px;
+    top: 400px;
     height: 60%;
     right: 45px;
     width: 80%;
@@ -693,7 +696,6 @@ footer ul li a {
   .submitform {
     flex: 2;
     position: absolute;
-    top: 270px;
     height: auto;
   }
 }
