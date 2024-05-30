@@ -199,21 +199,34 @@ hr {
   }
 }
 /******************  Main Slider ******************/
-video {
-  width: 100%;
-  height: auto;
-}
-
 .video-main {
   position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
   background-color: #052138;
+}
+
+.video-main .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 #mainlogo {
   position: absolute;
-  top: 15%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
+  max-width: 90%; /* Ensures the logo doesn't overflow on small screens */
+  height: auto;
 }
 
 /****************************************************/
@@ -527,6 +540,7 @@ video {
   max-width: 120rem;
   margin: 3% auto;
   position: relative;
+  background-color: green;
 }
 
 .projectstitle {
