@@ -191,6 +191,8 @@ hr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-direction: column;
+  text-align: center;
 }
 
 .sliderh1 {
@@ -231,7 +233,6 @@ button {
 }
 
 #prev {
-  translate: 0px;
   transform: scaleY(-1);
 }
 
@@ -243,20 +244,55 @@ button {
   height: 40%;
 }
 
-.blueOverlay {
-  position: relative;
+/* Media Queries for Responsiveness */
+/* For tablets */
+@media (max-width: 768px) {
+  .sliderh1 {
+    font-size: 24px;
+    bottom: 20px;
+  }
+  .globe {
+    font-size: 3em;
+    padding: 10px;
+  }
+  .buttonsslider {
+    right: 15px;
+  }
+  button {
+    width: 8px;
+    height: 25px;
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+  #logo-slider-main {
+    left: 35%;
+    height: 30%;
+  }
 }
-
-.blueOverlay::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(5, 33, 58, 0.6); /* Blue color with 50% opacity */
+/* For mobile devices */
+@media (min-width: 200px) and (max-width: 480px) {
+  .sliderh1 {
+    font-size: 20px;
+    bottom: 15px;
+  }
+  .globe {
+    font-size: 2em;
+    padding: 5px;
+  }
+  .buttonsslider {
+    right: 10px;
+  }
+  button {
+    width: 6px;
+    height: 20px;
+    margin: 10px 0;
+    padding: 0 8px;
+  }
+  #logo-slider-main {
+    left: 30%;
+    height: 25%;
+  }
 }
-
 /***********************  Clients**********************/
 .titles {
   margin-left: 5%;

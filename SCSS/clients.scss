@@ -191,59 +191,62 @@ hr{
 
 /******************  Main Slider ******************/
 #slidermain {
-position: relative;
-height: 100vh;
-width: 100%;
-background-color: rgb(24, 59, 59);
-display: flex;
-justify-content: center;
-align-items: center;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
 }
 
-.sliderh1{
+.sliderh1 {
     color: white;
     position: absolute;
     bottom: 30px;
     font-size: 28px;
     text-shadow: 4px 0px 2px #000000;
-
 }
-.globe{
+
+.globe {
     font-size: 5em;
     color: #fff;
     padding: 15px;
     text-shadow: 8px 0px 2px #000000;
 }
+
 .buttonsslider {
-position: absolute;
-right: 25px;
-top: 50%;
-transform: translateY(-50%);
-z-index: 99;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
 }
 
 button {
-border: none;
-background-size: contain;
-background: url("data:image/svg+xml,%3Csvg width='10' height='29' viewBox='0 0 10 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0V27L1 17.4857' stroke='white' stroke-width='2' /%3E%3C/svg%3E%0A") no-repeat;
-background-position: center;
-width: 10px;
-height: 30px;
-display: block;
-margin: 20px 0;
-padding: 0 15px;
-transition-duration: .6s;
-cursor: pointer;
+    border: none;
+    background-size: contain;
+    background: url("data:image/svg+xml,%3Csvg width='10' height='29' viewBox='0 0 10 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0V27L1 17.4857' stroke='white' stroke-width='2' /%3E%3C/svg%3E%0A") no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin: 20px 0;
+    padding: 0 15px;
+    transition-duration: .6s;
+    cursor: pointer;
 }
 
-#prev{
-    translate: 0px;
+#prev {
     transform: scaleY(-1);
 }
-#logo-slider-main{
+
+#logo-slider-main {
     position: absolute;
     left: 40%;
     top: 0;
@@ -251,19 +254,79 @@ cursor: pointer;
     height: 40%;
 }
 
-.blueOverlay {
-    position: relative;
+/* Media Queries for Responsiveness */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .sliderh1 {
+        font-size: 24px;
+        bottom: 20px;
+    }
+
+    .globe {
+        font-size: 3em;
+        padding: 10px;
+    }
+
+    .buttonsslider {
+        right: 15px;
+    }
+
+    button {
+        width: 8px;
+        height: 25px;
+        margin: 15px 0;
+        padding: 0 10px;
+    }
+
+    #logo-slider-main {
+        left: 35%;
+        height: 30%;
+    }
 }
 
-.blueOverlay::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: $overlay_color; /* Blue color with 50% opacity */
+/* For mobile devices */
+@media (min-width:200px) and (max-width: 480px) {
+    .sliderh1 {
+        font-size: 20px;
+        bottom: 15px;
+    }
+
+    .globe {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    .buttonsslider {
+        right: 10px;
+    }
+
+    button {
+        width: 6px;
+        height: 20px;
+        margin: 10px 0;
+        padding: 0 8px;
+    }
+
+    #logo-slider-main {
+        left: 30%;
+        height: 25%;
+    }
 }
+
+// .blueOverlay {
+//     position: relative;
+// }
+
+// .blueOverlay::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: $overlay_color; /* Blue color with 50% opacity */
+// }
 
 
 /***********************  Clients**********************/
