@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize and validate the form data
-    $first_name = filter_var(trim($_POST["first_name"]), FILTER_SANITIZE_STRING);
-    $last_name = filter_var(trim($_POST["last_name"]), FILTER_SANITIZE_STRING);
+    $first_name = filter_var(trim($_POST["firstname"]), FILTER_SANITIZE_STRING);
+    $last_name = filter_var(trim($_POST["lastname"]), FILTER_SANITIZE_STRING);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $phone = filter_var(trim($_POST["phone"]), FILTER_SANITIZE_STRING);
     $message = filter_var(trim($_POST["message"]), FILTER_SANITIZE_STRING);
@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare the email content
-    $to = "your-email@example.com";  // Replace with your email address
+    $to = "t03maryam@gmail.com";  // Replace with your email address
     $subject = "New Contact Form Submission";
     $body = "You have received a new message from the contact form on your website.\n\n".
             "Here are the details:\n".
