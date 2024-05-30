@@ -621,48 +621,48 @@ video {
 
 .projectImage1 {
   grid-area: projectImage1;
-  background-image: url("imagesprojectImage1.jpg");
+  background-image: url("../images/projectImage1.jpg");
   border-radius: 25px;
 }
 
 .projectImage2 {
   grid-area: projectImage2;
-  background-image: url("imagesprojectImage2.jpg");
+  background-image: url("../images/projectImage2.jpg");
   border-radius: 25px;
   min-height: 390px;
 }
 
 .projectImage3 {
   grid-area: projectImage3;
-  background-image: url("imagesprojectImage3.jpg");
+  background-image: url("../images/projectImage3.jpg");
   border-radius: 25px;
   min-height: 440px;
 }
 
 .projectImage4 {
   grid-area: projectImage4;
-  background-image: url(/images/projectImage4.jpg);
+  background-image: url(../images/projectImage4.jpg);
   border-radius: 25px;
   min-height: 440px;
 }
 
 .projectImage5 {
   grid-area: projectImage5;
-  background-image: url(./images/projectImage5.jpg);
+  background-image: url(../images/projectImage5.jpg);
   border-radius: 25px;
   min-height: 250px;
 }
 
 .projectImage6 {
   grid-area: projectImage6;
-  background-image: url("./images/projectImage6.jpg");
+  background-image: url("../images/projectImage6.jpg");
   border-radius: 25px;
   min-height: 250px;
 }
 
 .projectImage7 {
   grid-area: projectImage7;
-  background-image: url("/images/projectImage7.jpg");
+  background-image: url("../images/projectImage7.jpg");
   border-radius: 25px;
 }
 
