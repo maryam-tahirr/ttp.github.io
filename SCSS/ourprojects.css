@@ -178,13 +178,13 @@ hr {
   }
 }
 body {
-  background-image: url(/images/projectsBg.png);
+  background-image: url(../images/projectsBg.png);
 }
 
 .main-page {
   height: 650px;
   width: 100%;
-  background-image: url(/images/projects_top.jpg);
+  background-image: url(../images/projects_top.jpg);
   background-position: top;
   background-size: cover;
   overflow: hidden;
@@ -231,7 +231,7 @@ body {
 }
 
 body {
-  background-image: url(/images/projectsBg.jpg);
+  background-image: url(../images/projectsBg.jpg);
   background-size: contain;
 }
 
