@@ -534,6 +534,9 @@ footer ul li a {
     padding-left: 20px;
     position: relative;
   }
+  .sticky {
+    padding-bottom: 250px;
+  }
 }
 @media (max-width: 768px) and (min-width: 390px) {
   nav {
