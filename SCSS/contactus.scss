@@ -737,7 +737,7 @@ footer ul li a{
     
 }
 
-@media (max-width: 390px){
+@media (max-width: 391px){
     #send{
         margin-top: 20px;
     }
@@ -751,6 +751,7 @@ footer ul li a{
     }
 
     .submitform{
+        top: 330px;
         width: 85%;
         right: 30px;
     }
