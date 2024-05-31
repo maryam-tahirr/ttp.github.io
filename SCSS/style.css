@@ -805,7 +805,7 @@ footer ul li a {
 @media (max-width: 768px) and (min-width: 390px) {
   nav {
     display: none;
-    width: 60%;
+    width: 100%;
     height: 100%;
     background-color: #052138;
     color: #fff;
@@ -959,7 +959,7 @@ footer ul li a {
 @media (max-width: 392px) {
   nav {
     display: none;
-    width: 60%;
+    width: 100%;
     height: 100%;
     background-color: #052138;
     color: #fff;
