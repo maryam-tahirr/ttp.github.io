@@ -802,19 +802,6 @@ footer ul li a {
   margin-right: 40px;
 }
 
-@media (max-width: 390px) {
-  nav {
-    display: none;
-    width: 60%;
-    height: 100%;
-    background-color: #052138;
-    color: #fff;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    position: relative;
-  }
-}
 @media (max-width: 768px) and (min-width: 390px) {
   nav {
     display: none;
@@ -949,7 +936,7 @@ footer ul li a {
     grid-template-areas: "projectImage1 projectImage1 projectImage2 projectImage2" "projectImage3 projectImage3 projectImage2 projectImage2" "projectImage3 projectImage3 projectImage6 projectImage6" "projectImage3 projectImage3 projectImage6 projectImage6" "projectImage5 projectImage5 projectImage4 projectImage4" "projectImage5 projectImage5 projectImage4 projectImage4" "projectImage7 projectImage7 projectImage7 projectImage7" "projectImage7 projectImage7 projectImage7 projectImage7";
   }
   .projectImage4 {
-    min-height: 250px;
+    min-height: 436px;
   }
   .projectstitle h1 {
     font-size: 2.2em;
@@ -967,5 +954,21 @@ footer ul li a {
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 25px;
+  }
+}
+@media (max-width: 392px) {
+  nav {
+    display: none;
+    width: 60%;
+    height: 100%;
+    background-color: #052138;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .projectImage5 {
+    min-height: 436px;
   }
 }/*# sourceMappingURL=style.css.map */
