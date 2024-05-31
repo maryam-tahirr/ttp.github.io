@@ -828,6 +828,21 @@ footer ul li a{
     margin-right: 40px;
 }
 
+
+@media (max-width: 390px){
+    nav{
+        display: none;
+        width: 60%;
+        height: 100%;
+        background-color: $main_blue;
+        color: #fff;
+        padding-bottom: 20px;
+        padding-top:20px;
+        padding-left: 20px;
+        position:relative;
+    }
+    
+}
 @media (max-width: 768px) and (min-width: 390px) {
     nav{
         display: none;
@@ -1011,7 +1026,7 @@ footer ul li a{
     }
 
     .projectImage4{
-        min-height: 436px;
+        min-height: 250px;
     }
 
     .projectstitle h1{
@@ -1036,20 +1051,3 @@ footer ul li a{
     }
 }
 
-@media (max-width: 392px){
-    nav{
-        display: none;
-        width: 60%;
-        height: 100%;
-        background-color: $main_blue;
-        color: #fff;
-        padding-bottom: 20px;
-        padding-top:20px;
-        padding-left: 20px;
-        position:relative;
-    }
-
-    .projectImage5{
-        min-height: 436px;
-    }
-}
