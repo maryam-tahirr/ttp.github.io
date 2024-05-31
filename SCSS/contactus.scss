@@ -217,6 +217,10 @@ video{
     width: 100%;
     height: auto;
 }
+.main-page{
+    height: 100vh;
+    width: 100%;
+}
 .leftdiv{
     height: 35%;
     width: 25%;
@@ -243,7 +247,7 @@ video{
     }
 }
 .submitform{
-    height: 80%;
+    height: auto;
     width: 45%;
     background-color: #fff;
     position: absolute;
@@ -565,9 +569,12 @@ footer ul li a{
     #send{
         margin-top: 30px;
     }
+    .submitform{
+        top: 30%;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     footer {
         flex-direction: column;
         align-items: center;
@@ -624,6 +631,7 @@ footer ul li a{
     .submitform{
         width: 55%;
         right: 60px;
+        top: 25%;
     }
 
     .leftdiv{
@@ -650,8 +658,8 @@ footer ul li a{
     }
 
     .submitform{
-        top: 390px;
-        height: 52%;
+        top: 30%;
+        height: auto;
         right: 73px;
         width: 75%;
         box-shadow: 0px 0px 15px black;
@@ -664,12 +672,25 @@ footer ul li a{
     .leftdiv{
         top: 11%;
         width: 75%;
-        height: 28%;
+        height: auto;
         left: 12%;
         
         h1{
             font-size: 57px;
         }
+    }
+    .leftdiv{
+        top: 10%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .leftdiv h1{
+        font-size: 30px;
+    }
+    .submitform input{
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .titles h1{
@@ -721,18 +742,19 @@ footer ul li a{
         height: 300px;
     }
     .leftdiv{
-        padding: 0;
-        margin: 0;
-        height: 18%;
-        margin-bottom: -50px;
+        top: 10%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .leftdiv h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .submitform{
         flex: 2;
         position: absolute;
         height: auto;
+        top: 25%;
     }
     
 }
@@ -745,13 +767,12 @@ footer ul li a{
     .submit input{
         font-size: 18px;
     }
-
-    .leftdiv h1{
-        font-size: 47px;
+    .main-page{
+        height: 115vh;
     }
 
     .submitform{
-        top: 330px;
+        top: 30%;
         width: 85%;
         right: 30px;
     }
